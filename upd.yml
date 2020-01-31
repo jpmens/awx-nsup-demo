@@ -5,7 +5,8 @@
   gather_facts: true
   tasks:
   - name: update DNS
-    nsupdate:
+    local_action: 
+        module: nsupdate
         key_name: "{{ nsup_name }}"
         key_algorithm: "{{ nsup_algo }}"
         key_secret: "{{ nsup_secret }}"
