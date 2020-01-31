@@ -15,7 +15,7 @@
 #        zone: "example.net"
 #        record: "awx.example.net."
         zone: "mens.de"
-        record: "awx2.mens.de."
+        record: "awx3.mens.de."
         ttl: 60
         value: "hola from AWX"
         state: present
