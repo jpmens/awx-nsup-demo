@@ -9,7 +9,7 @@
         key_name: "{{ nsup_name }}"
         key_algorithm: "{{ nsup_algo }}"
         key_secret: "{{ nsup_secret }}"
-        server: "192.168.1.130"
+        server: "192.168.33.1"
         port: 5301
         protocol: tcp
 #        zone: "example.net"
