@@ -17,6 +17,7 @@
         zone: "mens.de"
         record: "awx3.mens.de."
         ttl: 60
+        type: "TXT"
         value: "hola from AWX"
         state: present
 
